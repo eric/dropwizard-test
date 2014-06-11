@@ -14,6 +14,6 @@ public class TestThingParam extends AbstractParam<TestThing> {
 
     @Override
     protected TestThing parse(String input) throws Exception {
-        return new TestThing();
+        return new TestThing(input);
     }
 }
