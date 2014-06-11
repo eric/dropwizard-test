@@ -8,7 +8,7 @@ public class TestThingParam extends AbstractParam<TestThing> {
      *
      * @param input an input value from a client request
      */
-    protected TestThingParam(String input) {
+    public TestThingParam(String input) {
         super(input);
     }
 
